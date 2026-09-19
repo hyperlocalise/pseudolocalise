@@ -5,7 +5,7 @@
     "": {
       "name": "@hyperlocalise/pseudolocalize",
       "devDependencies": {
-        "@formatjs/icu-messageformat-parser": "3.5.18",
+        "@formatjs/icu-messageformat-parser": "3.5.20",
         "@formatjs/intl": "4.2.1",
         "@types/bun": "1.3.14",
         "intl-messageformat": "11.2.15",
@@ -30,9 +30,9 @@
   "packages": {
     "@formatjs/fast-memoize": ["@formatjs/fast-memoize@3.1.7", "", {}, "sha512-zXfhLpvA6T7+efdt9JLbBwZ00tT7NsBMDVnDu8rpHeNNv8KfRZAMo2gkG0k9lK/Nzc//3kJ9pImsfuJxk3KhUA=="],
 
-    "@formatjs/icu-messageformat-parser": ["@formatjs/icu-messageformat-parser@3.5.18", "", { "dependencies": { "@formatjs/icu-skeleton-parser": "2.1.11" } }, "sha512-wX1efcL8d7K5QapOTRsP/OLTA/kpwe4LwqWyNxDNg5iRs8i9jJbCyxB5P8jc4KOW5oiLzz2DJr+BRY5xMV9+bA=="],
+    "@formatjs/icu-messageformat-parser": ["@formatjs/icu-messageformat-parser@3.5.20", "", { "dependencies": { "@formatjs/icu-skeleton-parser": "2.1.12" } }, "sha512-DUzCb2iskGDKvLU7P+nz/rjpmN59luoTRbWHFFNYNnZTxWCKvwPI94rNll99TGZaI6XoTbDF0QGegk21GFrQZQ=="],
 
-    "@formatjs/icu-skeleton-parser": ["@formatjs/icu-skeleton-parser@2.1.11", "", {}, "sha512-j8cUmOJzVgkHuS0QiQ6ga76UIoLOFSAMWhs7aZJztH3aAdCOAE6vpC8KVvFB4cU10ON0y2/5oOVmPJ43s2lTwA=="],
+    "@formatjs/icu-skeleton-parser": ["@formatjs/icu-skeleton-parser@2.1.12", "", {}, "sha512-ca7tZMLpfHX3sUD7hP6gE/qr6Iq89EDd3ZLeRhbsB7r0UD55DGJq+tmFLzrGrnx5StahUevQmQQVtbDRHsfDHA=="],
 
     "@formatjs/intl": ["@formatjs/intl@4.2.1", "", { "dependencies": { "@formatjs/fast-memoize": "3.1.7", "@formatjs/icu-messageformat-parser": "3.5.18", "intl-messageformat": "11.2.15" } }, "sha512-GiL0cReencWQkhfJedNLMe0Aorb/wyTRJdi+hLgG9gsDPy4yw2N+EkMcijf5+oGKd5jde75tr5nujsPg78bUTw=="],
 
@@ -261,5 +261,13 @@
     "which": ["which@2.0.2", "", { "dependencies": { "isexe": "^2.0.0" }, "bin": { "node-which": "./bin/node-which" } }, "sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA=="],
 
     "ws": ["ws@8.20.0", "", { "peerDependencies": { "bufferutil": "^4.0.1", "utf-8-validate": ">=5.0.2" }, "optionalPeers": ["bufferutil", "utf-8-validate"] }, "sha512-sAt8BhgNbzCtgGbt2OxmpuryO63ZoDk/sqaB/znQm94T4fCEsy/yV+7CdC1kJhOU9lboAEU7R3kquuycDoibVA=="],
+
+    "@formatjs/intl/@formatjs/icu-messageformat-parser": ["@formatjs/icu-messageformat-parser@3.5.18", "", { "dependencies": { "@formatjs/icu-skeleton-parser": "2.1.11" } }, "sha512-wX1efcL8d7K5QapOTRsP/OLTA/kpwe4LwqWyNxDNg5iRs8i9jJbCyxB5P8jc4KOW5oiLzz2DJr+BRY5xMV9+bA=="],
+
+    "intl-messageformat/@formatjs/icu-messageformat-parser": ["@formatjs/icu-messageformat-parser@3.5.18", "", { "dependencies": { "@formatjs/icu-skeleton-parser": "2.1.11" } }, "sha512-wX1efcL8d7K5QapOTRsP/OLTA/kpwe4LwqWyNxDNg5iRs8i9jJbCyxB5P8jc4KOW5oiLzz2DJr+BRY5xMV9+bA=="],
+
+    "@formatjs/intl/@formatjs/icu-messageformat-parser/@formatjs/icu-skeleton-parser": ["@formatjs/icu-skeleton-parser@2.1.11", "", {}, "sha512-j8cUmOJzVgkHuS0QiQ6ga76UIoLOFSAMWhs7aZJztH3aAdCOAE6vpC8KVvFB4cU10ON0y2/5oOVmPJ43s2lTwA=="],
+
+    "intl-messageformat/@formatjs/icu-messageformat-parser/@formatjs/icu-skeleton-parser": ["@formatjs/icu-skeleton-parser@2.1.11", "", {}, "sha512-j8cUmOJzVgkHuS0QiQ6ga76UIoLOFSAMWhs7aZJztH3aAdCOAE6vpC8KVvFB4cU10ON0y2/5oOVmPJ43s2lTwA=="],
   }
 }
